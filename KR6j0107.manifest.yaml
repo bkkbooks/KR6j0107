@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6j0107/v1
+canonical_location: https://kanripo.org/bkk/KR6j0107/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 極樂願文
+  identifiers:
+    alt_id:
+    - T19n0935
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T19/T19n0935.xml
+    old_id: T19n0935
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0107_000.yaml, hash: 'sha256:cf1504d7233b8beb961ff31640f41972530794c1739c7dbb49bfe835073dada3'}
+  - {seq: 1, filename: KR6j0107_001.yaml, hash: 'sha256:0b224c5aff2c372c8430866a47cec275cdccfbff8adaa6f24496ba0555713f0f'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0107_001.markers.yaml, hash: 'sha256:7c7d33ddf2cc07c8091f0e86d56972ff92b535f54e90edf1b930896740169943'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0107_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1628
+  label: 極樂願文
+  type: juan
+  level: 1
+hash: sha256:cd7db0b605ec737431895721947b4638f86d57ba5deddb736e9cfbfc16924df7
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
