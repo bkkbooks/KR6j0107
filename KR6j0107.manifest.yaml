@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0107_000.yaml, hash: 'sha256:cf1504d7233b8beb961ff31640f41972530794c1739c7dbb49bfe835073dada3'}
-  - {seq: 1, filename: KR6j0107_001.yaml, hash: 'sha256:0b224c5aff2c372c8430866a47cec275cdccfbff8adaa6f24496ba0555713f0f'}
+  - {seq: 1, filename: KR6j0107_001.yaml, hash: 'sha256:4a0ddaea03e77f974570fc8b570fab863d5c2ed99d2c0320623ab28ee9262f3f'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0107_001.markers.yaml, hash: 'sha256:7c7d33ddf2cc07c8091f0e86d56972ff92b535f54e90edf1b930896740169943'}
+  - {seq: 0, role: markers, filename: assets/KR6j0107_000.markers.yaml, hash: 'sha256:54f57ac60785b6cb268560daadd1abdb84eaa03195936106040480de8d663c00'}
+  - {seq: 1, role: markers, filename: assets/KR6j0107_001.markers.yaml, hash: 'sha256:392c7dc01bc93420a52062edc8a8d58f980446b73bc90e0bde41438f057f5e5c'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 極樂願文
   type: juan
   level: 1
-hash: sha256:cd7db0b605ec737431895721947b4638f86d57ba5deddb736e9cfbfc16924df7
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:52e13b18aab44f16124fdddb22d6dd9c03ce681b768079af437967d529c73f66
