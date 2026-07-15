@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0107/v1
 canonical_location: https://kanripo.org/bkk/KR6j0107/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 極樂願文
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0107_000.yaml, hash: 'sha256:cf1504d7233b8beb961ff31640f41972530794c1739c7dbb49bfe835073dada3'}
-  - {seq: 1, filename: KR6j0107_001.yaml, hash: 'sha256:4a0ddaea03e77f974570fc8b570fab863d5c2ed99d2c0320623ab28ee9262f3f'}
+  - {seq: 1, filename: KR6j0107_001.yaml, hash: 'sha256:5e99f30911e1f7b02af1c6622b192960b79ac2c4ecb9223d556932434598d7b8'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0107_000.markers.yaml, hash: 'sha256:54f57ac60785b6cb268560daadd1abdb84eaa03195936106040480de8d663c00'}
-  - {seq: 1, role: markers, filename: assets/KR6j0107_001.markers.yaml, hash: 'sha256:392c7dc01bc93420a52062edc8a8d58f980446b73bc90e0bde41438f057f5e5c'}
+  - {seq: 1, role: markers, filename: assets/KR6j0107_001.markers.yaml, hash: 'sha256:cfcdb33bcf783fb84b85f9dfa908d7588a540b345403ed6b8fe12637abb17a5b'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,4 +37,7 @@ table_of_contents:
   label: 極樂願文
   type: juan
   level: 1
-hash: sha256:52e13b18aab44f16124fdddb22d6dd9c03ce681b768079af437967d529c73f66
+hash: sha256:02681d3b5751571fb98224c92f5997954f6e8af5cabe47bf41f954184e68ed76
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
